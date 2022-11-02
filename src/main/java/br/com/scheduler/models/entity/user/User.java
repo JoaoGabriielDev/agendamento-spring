@@ -48,7 +48,7 @@ public class User implements Serializable {
         address.setUser_addresses(this);
         this.addresses.add(address);
     }
-
+//
     public void addPhones(Phone phone) {
         phone.setUser(this);
         this.phones.add(phone);
